@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+input:focus {
+  outline:none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.momentum-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+}
+
+.bgImage {
+  display: flex;
+  position: relative;
+}
+
+#login-form {
+  margin: 20px 0;
+}
+#login-form > input {
+  font-size: 18px;
+}
+
+.input-name {
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.404);
+  border-radius: 30px;
+  width: 400px;
+  height: 50px;
+  padding: 0 20px;
+}
+.input-name::placeholder {
+  color: #fff;
+}
+
+.input-submit {
+  border: none;
+  background: none;
+  width: 100px;
+  height: 50px;
+  font-weight: 700;
+  color: #fff;
+}
+.input-submit:hover {
+  color: tomato;
+}
+
+#todo-form > input{
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: none;
+  width: 500px;
+  height: 50px;
+  font-size: 18px;
+}
+#todo-form > input::placeholder {
+  color: #fff;
+}
+#todo-list {
+  margin: 20px 0;
+  width: 400px;
+  height: 300px;
+  color: #fff;
+  padding: 0 50px;
+}
+#todo-list li {
+  margin: 15px 0;
+}
+#todo-list button {
+  border: none;
+  background: none;
+  color: #fff;
+  margin-left: 10px;
+}
+#todo-list button:hover {
+  color: tomato;
+}
+
+#clock {
+  font-size: 50px;
+  color: #fff;
+}
+
+#greeting {
+  font-size: 70px;
+  color: #fff;
+}
+
+#quote {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+#weather {
+  color: #fff;
+  font-weight: 200;
+  margin: 10px 0;
+}
